@@ -38,58 +38,64 @@
             // 
             // txbEmail
             // 
-            this.txbEmail.Location = new System.Drawing.Point(308, 146);
+            this.txbEmail.Location = new System.Drawing.Point(328, 148);
             this.txbEmail.Name = "txbEmail";
             this.txbEmail.Size = new System.Drawing.Size(100, 20);
             this.txbEmail.TabIndex = 0;
+            this.txbEmail.TextChanged += new System.EventHandler(this.txbEmail_TextChanged);
             // 
             // txbSenha
             // 
-            this.txbSenha.Location = new System.Drawing.Point(308, 182);
+            this.txbSenha.Location = new System.Drawing.Point(328, 184);
             this.txbSenha.Name = "txbSenha";
             this.txbSenha.PasswordChar = '•';
             this.txbSenha.Size = new System.Drawing.Size(100, 20);
             this.txbSenha.TabIndex = 1;
+            this.txbSenha.TextChanged += new System.EventHandler(this.txbSenha_TextChanged);
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(229, 147);
+            this.lblEmail.Location = new System.Drawing.Point(249, 149);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(59, 16);
             this.lblEmail.TabIndex = 2;
             this.lblEmail.Text = "E-mail:";
+            this.lblEmail.Click += new System.EventHandler(this.lblEmail_Click);
             // 
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
             this.lblSenha.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(229, 184);
+            this.lblSenha.Location = new System.Drawing.Point(249, 186);
             this.lblSenha.Name = "lblSenha";
             this.lblSenha.Size = new System.Drawing.Size(57, 16);
             this.lblSenha.TabIndex = 3;
             this.lblSenha.Text = "Senha:";
+            this.lblSenha.Click += new System.EventHandler(this.lblSenha_Click);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(303, 70);
+            this.lblTitle.Location = new System.Drawing.Point(323, 72);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(86, 29);
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "Login";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(308, 250);
+            this.btnEntrar.Location = new System.Drawing.Point(328, 252);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(100, 28);
             this.btnEntrar.TabIndex = 5;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // Login
             // 
